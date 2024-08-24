@@ -6,7 +6,7 @@ export const sendToken=(user,statusCode,res,message)=>{
         ),
         httpOnly:true,
         sameSite: "None",
-        secure: true
+        secure: true,
 
     }
 
